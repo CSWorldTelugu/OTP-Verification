@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.verification {
+  margin-top: 20px;
+  display: none;
+}
+
+.otp-input-fields {
+  margin: auto;
+  /* background-color: red; */
+  box-shadow: 0px 0 8px 0px #02024066;
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px;
+}
+
+.otp_num {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #2f8f1f;
+  font-size: 14px;
+}
+
+.otp_num::-webkit-inner-spin-button,
+.otp_num::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.success,
+.error {
+  display: none;
+  text-align: center;
+}
